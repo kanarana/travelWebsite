@@ -1,0 +1,384 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+   /* navbar */
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: #e1e1e9;
+    z-index: 4;
+    opacity: 0.9;
+    
+}
+#navbar .navlogo{
+    margin: 0rem 3rem;
+}
+#navbar .navlogo img{
+    width:10rem;
+    height:10rem;
+}
+#navbar .menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 2.5rem;
+    text-align: right;
+}
+#navbar .menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+}
+#navbar .menu{
+  margin: 0px 5.5rem;
+  align-self: center;
+}
+
+/* home */
+
+#home{
+    position: relative;
+    height: 75rem;
+    background-color: rgb(176, 197, 197);
+    z-index: -2;
+}
+#home::before{
+    content: "";
+    background: url(onlinetravelImages/beach3.jpg);
+    width: 100%;
+    height: 69%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+#home .text p{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+#home .text h1{
+    font-size: 8.1rem;
+}
+#home .text{
+    text-align: center; 
+    padding-top: 16rem;
+    color: white;
+}
+#home .cardbox{
+    display: flex;
+    margin: 2rem 3rem;
+    justify-content: center;
+}
+#home .cardbox .box{ 
+    background-color: rgb(204, 191, 230);
+    width: 22rem;
+    height: 35rem;
+    margin: 2rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+#home .cardbox .box img{ 
+    height: 7rem;
+    width: 7rem;
+    margin: 3rem 1rem;
+}
+#home .cardbox .box h1{ 
+   margin-bottom: 2rem;
+}
+
+/* block 1 */
+
+#block1{
+    margin-bottom: 8rem;
+}
+#block1 .headtext{
+    text-align: end;
+    margin: 4rem 6rem;
+    padding: 2rem 6rem;
+}
+#block1 .headtext h1{
+    font-size: 3.5rem;
+}
+#block1 .headtext .para{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+#block1 .imagetext{
+    display: flex;
+}
+#block1 .imagetext .image{
+    margin-left: 20rem;
+}
+#block1 .imagetext .image img{
+    height: 50rem;
+    width: 50rem;
+    border-radius: 50%;
+}
+#block1 .imagetext .text{
+    display: flex;
+    font-size: 6rem;
+    padding: 1rem 10rem;
+    align-items: center;
+}
+
+/* block 2 */
+
+#block2 .images{
+    display: flex;
+}
+#block2 .images .pic{
+   margin: 0rem .4rem;
+}
+#block2 .images img{
+    height: 40rem;
+    width: 33rem;
+}
+
+/* block 3 */
+
+#block3{
+    display: flex;
+}
+#block3 .partimage{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    width: 90rem;
+    height: 83rem;
+}
+#block3 .partimage .upperpart{
+    display: flex;
+}
+#block3 .partimage .image1{
+   display: inline-block;
+}
+#block3  img{
+    height:50rem;
+    width: 35rem;
+    border-radius: 2rem;
+}
+#block3 .partimage .bgcolor{
+    margin-top: 18rem;
+    height:20rem;
+    width: 45rem;
+    background: rgb(125, 91, 145);
+}
+#block3 .partimage .image2{
+    position: relative;
+    bottom: 23rem;
+    margin-left: 9rem;
+}
+#block3 .parttext{
+    margin: 1rem 2rem;
+    height: 90rem;
+}
+#block3 .parttext .text1{
+    margin-top: 9rem;
+    font-size: 3rem;
+    padding: 1rem 7rem;
+    color: rgb(99, 95, 155);
+}
+#block3 .parttext .invertedcomm img{
+    margin-top: 8rem;
+    margin-left: 3rem;
+    width: 10rem;
+    height: 12rem;
+}
+#block3 .parttext .text2{
+    font-size: 2rem;
+    padding: 0rem 15rem;
+}
+
+/* block 4 */
+
+#block4{
+    height: 70rem;
+    display: flex;
+    align-items: center;
+    position: relative;    
+}
+#block4::before{
+     content: "";
+     background: url(onlinetravelImages/beachBacckground.jpg);
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+}
+
+#block4 .txt{
+  padding: 1rem 14rem;
+  padding-right: 50rem;  
+}
+#block4 .txt h1{
+    font-size: 7rem;
+    padding-right: 28rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+#block4 .txt p{
+    font-size: 3rem;
+    padding-right: 27rem;
+}
+#block4 .txt button{
+    margin: 3rem .5rem;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border:.2rem solid rgb(99, 169, 182);
+    cursor: pointer;
+}
+#block4 .txt button:hover{
+    background-color: rgb(68, 75, 88);
+    color: white;
+}
+
+/* block 5 */
+
+#block5{
+    display: flex;
+}
+#block5 .text{
+    margin-top: 16rem;
+    padding-left: 10rem;
+  }
+  #block5 .text h1{
+      font-size: 6rem;
+      margin-bottom: 3rem;
+      color: rgb(99, 95, 155); ;
+  }
+  #block5 .text p{
+      font-size: 3rem;
+  }
+  #block5 .text button{
+      margin: 3rem .5rem;
+      padding: 1rem 2rem;
+      border:.2rem solid rgb(99, 169, 182);
+      cursor: pointer;
+  }
+  #block5 .text button:hover{
+      background-color: rgb(68, 75, 88);
+      color: white;
+  }
+  #block5 .yogapic{
+    display: flex;
+  }
+  #block5 .yogapic .bgcolor{
+    height:30rem ;
+    width: 30rem;
+    background-color: rgb(113, 113, 160);
+    border-radius: 50%;
+    position: relative;
+    top: 24rem;
+    left: 11rem;
+  }
+  #block5 .yogapic .yoga img{
+    height: 60rem;
+    width: 40rem;
+   
+  }
+  #block5 .yogapic .yoga{
+    margin-top: 10rem;
+    margin-right: 11rem;
+  }
+
+  /* block 6 */
+
+ #block6{
+    position: relative;
+    height: 80rem;
+    padding: 5rem 0rem;
+ }
+ #block6::before{
+    content: "";
+    background: url(onlinetravelImages/Beach_Background-885.jpg);
+    position: absolute;
+    width: 100%;
+    height: 102%;
+    z-index: -1;
+    left: 0rem;
+ }
+ #block6 .container{
+    height: 58rem;
+    width: 50rem;
+    background-color: rgb(178, 221, 217);
+    margin-left: 15rem;
+    margin-top: 16rem;
+    padding: 1rem;
+     border-radius: 10%;
+ }
+ #block6 .container .contact{
+    text-align:center ;
+ }
+ #block6 .container .contact h1{
+    font-size: 4.5rem;
+ }
+ #block6 .container .contact p{
+    font-size: 2.2rem;
+ }
+ #block6 .container .info{ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+ #block6 .container .info h1{ 
+    font-size: 2.5rem;
+    margin: 1.5rem 0rem;
+ }
+ #block6 .container .info h2{ 
+    font-size: 2rem;
+ }
+ #block6 .container .info .box{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 23rem;
+    width: 23rem;
+ }
+ #block6 .container .info .box img{ 
+    height: 5rem;
+    width: 5em;
+ }
+ #block6 .container .info #client .logopart{ 
+    display: flex;
+    margin: 1rem 0rem;
+ }
+ #block6 .container .info #client .logopart img{ 
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0.2rem;
+ }
+
+ /* block 7 */
+
+ #block7{
+    margin-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #50507c;
+    color: white;
+ }
+ #block8{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #3c4848;
+    color:white;
+ }
